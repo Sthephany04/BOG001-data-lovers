@@ -1,4 +1,4 @@
-# POKEDEX-CODE
+# POKEDEX-CODE💛💛
 
 ## Índice
 
@@ -14,15 +14,15 @@
 
 ***
 
-## 1. Resumen del proyecto
+## 1. Resumen del proyecto📖
 
 En este proyecto **Pokedex-Code** podras visualizar por medio de **Cards** los primeros 151 Pokemones de la región de Kanto y Johto con sus respectivas características usadas en el juego **Pokemon-GO**. En esta página web podras **visualizar** los Pokemones, **filtrarlos por tipo** (veneno, agua, fuego, lucha, roca, entre otros), **ordenarlos** de forma ascendente y descendente, además de visualizar datos como **promedios y gráficas**.
 
-## 2. Objetivo de la página
+## 2. Objetivo de la página🖥💻🖥
 
 Es una página web enfocada en un **usuario** que quiera conocer acerca de los diferentes Pokemones que existen y sus caracteristicas. Es una página fácil de usar, intuitiva y entendible para el usuario. 
 
-## 3. Historias de usuario
+## 3. Historias de usuario👦👧
 
 **Historia 1**
 -Usuario: Jugador de Pokemon Go;
@@ -49,7 +49,7 @@ Es una página web enfocada en un **usuario** que quiera conocer acerca de los d
 -Necesita: Visualizar las cantidades de pokemones por tipo;
 -Para: Saber las cantidades de pokemones que tiene por tipo;
 
-## 4. Prototipo de baja fidelidad
+## 4. Prototipo de baja fidelidad👉
 
 ![](imgReadme/ProtoBaja_pantalla_inicial.jpg)
 
@@ -57,7 +57,7 @@ Es una página web enfocada en un **usuario** que quiera conocer acerca de los d
 
 ![](imgReadme/ProtoBaja_cel.jpg)
 
-## 5. Prototipo de alta fidelidad
+## 5. Prototipo de alta fidelidad👈👇
 
 El prototipo de alta fidelidad se realizo en [Figma](https://www.figma.com/file/hY1jmIMkONC7RzPzyUpz4P/Untitled) 
 
@@ -69,11 +69,11 @@ El prototipo de alta fidelidad se realizo en [Figma](https://www.figma.com/file/
 
 ![](imgReadme/Pag2_cel.png)
 
-## 6. Feedback
+## 6. Feedback👨👩
 
 Entre las mejoras recibidas en el feedback, se pedia que en el cambio de pagina donde se visualizaban los pokemones, al presionar los botones anterior o siguiente no fuera necesario hacer Scroll para visualizar los primeros pokemones cargados en la página sino que lo realizára de forma automatica.
 
-## 7. Hacker Edition
+## 7. Hacker Edition👩‍🔬👩‍🔬
 
 1. La data se consumio de forma dinámica, cargando un archivo JSON por medio de fetch.
 
@@ -83,7 +83,7 @@ Entre las mejoras recibidas en el feedback, se pedia que en el cambio de pagina 
 
 ![](imgReadme/CaptureTest.PNG)
 
-## 8. Objetivos de aprendizaje
+## 8. Objetivos de aprendizaje🚩
 
 ### HTML y CSS
 
@@ -134,7 +134,7 @@ Entre las mejoras recibidas en el feedback, se pedia que en el cambio de pagina 
 * [x] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 * [x] Planear y ejecutar tests de usabilidad.
 
-## 9. Checklist
+## 9. Checklist🚥🚨
 
 * [x] Usa VanillaJS.
 * [x] No hace uso de `this`.
