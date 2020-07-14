@@ -2,11 +2,6 @@ import funciones from "./data.js";
 
 let dataPokemon;
 
-// // EJECUCION
-// funciones.loadJSON((res) => {
-//   datosPokemon = JSON.parse(res).pokemon; //PARSEAR EL JSON PQ LO QUE RECIBO ES UN STRING GIGANTE
-// });
-
   fetch("./data/pokemon/pokemon.json")
   .then(function(res) {
     if(res.status !== 200) {
