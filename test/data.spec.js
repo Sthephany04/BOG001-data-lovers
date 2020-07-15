@@ -13,7 +13,33 @@ describe('funciones.filterData', () => {
   });
 
   it('Deberia devolver Pikachu para tipo Electrico', () => {
-    expect(funciones.filterData(datos, "Electrico")[0].name).toEqual('Pikachu');
+    expect(funciones.filterData(datos, "Electrico")[0]).toEqual(
+      {
+        "id": 25,
+        "num": "025",
+        "name": "Pikachu",
+        "img": "http://www.serebii.net/pokemongo/pokemon/025.png",
+        "type": [
+          "Electrico"
+        ],
+        "height": "0.41 m",
+        "weight": "6.0 kg",
+        "candy": "Pikachu Candy",
+        "candy_count": 50,
+        "egg": "2 km",
+        "spawn_chance": 0.21,
+        "avg_spawns": 21,
+        "spawn_time": "04:00",
+        "multipliers": [2.34],
+        "weaknesses": [
+          "Tierra"
+        ],
+        "next_evolution": [{
+          "num": "026",
+          "name": "Raichu"
+        }]
+      }
+    );
   });
 
   it('Deberia devolver un arreglo de 3 elementos para tipo Dragon', () => {

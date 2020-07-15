@@ -149,9 +149,11 @@ function showPokemon(view) {
     showData = funciones.filterData(d, valueFilter);
     containerShowPokemon = FilterForType;
     pokemonesForPage = 26;
+    console.log(showData);
   } else {    
     deleteContent();
     showData = dataPokemon;
+    pokemonesForPage = 12;
     containerShowPokemon = containerPokemones;
   }
 
@@ -345,12 +347,10 @@ let lineChart = new Chart(CHART, {
 }
 
 function scrollto() {
-  setTimeout(() => {
-    
+  setTimeout(() => {    
     window.scroll({
       top: 0, 
-      left: 0, 
-      behavior: 'smooth'
+      left: 0,      
     });
   });
 }
