@@ -2,11 +2,6 @@ import funciones from "./data.js";
 
 let dataPokemon;
 
-// // EJECUCION
-// funciones.loadJSON((res) => {
-//   datosPokemon = JSON.parse(res).pokemon; //PARSEAR EL JSON PQ LO QUE RECIBO ES UN STRING GIGANTE
-// });
-
   fetch("./data/pokemon/pokemon.json")
   .then(function(res) {
     if(res.status !== 200) {
@@ -154,9 +149,11 @@ function showPokemon(view) {
     showData = funciones.filterData(d, valueFilter);
     containerShowPokemon = FilterForType;
     pokemonesForPage = 26;
+    console.log(showData);
   } else {    
     deleteContent();
     showData = dataPokemon;
+    pokemonesForPage = 12;
     containerShowPokemon = containerPokemones;
   }
 
@@ -350,12 +347,10 @@ let lineChart = new Chart(CHART, {
 }
 
 function scrollto() {
-  setTimeout(() => {
-    
+  setTimeout(() => {    
     window.scroll({
       top: 0, 
-      left: 0, 
-      behavior: 'smooth'
+      left: 0,      
     });
   });
 }
