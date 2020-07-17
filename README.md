@@ -108,8 +108,8 @@ Entre las mejoras recibidas en el feedback, se pedia que en el cambio de pagina 
 * [x] Manipular objects (key | value)
 * [x] Uso ES modules ([`import`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 | [`export`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export))
-* [x] Diferenciar entre expression y statements.
-* [x] Diferenciar entre tipos de datos atómicos y estructurados.
+* [ ] Diferenciar entre expression y statements.
+* [ ] Diferenciar entre tipos de datos atómicos y estructurados.
 
 ### Testing
 
